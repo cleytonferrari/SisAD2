@@ -1,0 +1,4 @@
+SystemAL.ini
+p3win.ini
+
+//formada pela hora minuto dia e mes atual 12:10 31/12/2004 = 12103112

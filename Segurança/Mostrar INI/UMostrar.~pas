@@ -1,0 +1,28 @@
+unit UMostrar;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, Buttons;
+
+type
+  TfrmProt2003mostrar = class(TForm)
+    BitBtn1: TBitBtn;
+    BitBtn2: TBitBtn;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmProt2003mostrar: TfrmProt2003mostrar;
+  reg:TRegIniFile;
+  EndSistem : Array[0..144] of Char;
+  DirSistem:String;
+implementation
+
+{$R *.dfm}
+
+end.
